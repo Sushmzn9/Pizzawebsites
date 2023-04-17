@@ -1,0 +1,223 @@
+            
+         
+            body{
+                margin:0px;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            
+            .wrapper{
+                /* background-color: lightblue;
+                padding: 10px; */
+display: grid;
+gap: 5px;
+grid-template-columns: 1fr 2fr 1fr;
+grid-template-areas: 
+"h1 h1 h1"
+"header header header"
+"banner banner banner"
+"banner banner banner"
+"off1 off1 off1"
+"off2 off2 off2"
+"sm main main"
+"recent main main"
+"tags main main"
+"footer footer footer"
+
+;
+}
+.wrapper  {
+display: grid;
+    justify-content:center ;
+    align-items:center ;
+    padding:0;
+   
+   
+   
+}
+.logo{
+    border-radius: 50%;
+    mix-blend-mode: lighten;
+
+}
+h1{
+    background-color: rgba(0, 0, 255, 0);
+    grid-area:h1;
+}
+header{
+    background-color: red;
+    grid-area:header;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  
+}
+.order-list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 2rem;
+}
+.controlbar{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.banner{
+    background: linear-gradient(130deg,rgb(255,1,266), orange,blue);
+
+    grid-area:banner;
+height: 100%;
+position: relative;
+}
+video{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+.video-info{
+position: absolute;
+top: 35%;
+right: 62%;
+}
+h2{
+    color: rgb(255, 251, 251);
+    font-size: 2rem;
+    margin: 0;
+}
+.off1{
+  
+    grid-area:off1;
+    background-attachment: fixed;
+    background-color: rgba(240, 13, 13, 0.309);
+    
+
+    
+}
+.off1>h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+.off1-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap ;
+    
+    gap: 1rem;
+
+ 
+}
+#pics{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    mix-blend-mode: color;
+    
+   
+}
+.img-label{
+    text-align: center;
+   
+    font-size: 1.5rem;
+    color:rgba(237, 36, 0, 0.612);
+    margin-bottom: 30px;
+}
+.off2{
+    background-color: brown;
+    grid-area:off2;
+    position: relative;
+    
+ 
+}
+.delivery{
+    /* background: url(./img/pexels-gustavo-fring-4254142.jpg);
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%; */
+    /* width: 100%;
+    height: 100%; */
+    background: url(./img/pexels-gustavo-fring-4254142.jpg) center center no-repeat;
+    background-size: cover;
+     background-attachment:fixed;
+     width: 100%;
+     height: 150vh;
+   
+}
+.delivery-info{
+    position: absolute;
+    top: 60%;
+    right: 20%;
+}
+.side-menu{
+    background-color: purple;
+    grid-area: sm;
+}
+.recent{
+    background-color: cyan;
+    grid-area: recent;
+}
+.tags{
+    background-color: orange;
+    grid-area: tags;
+}
+.main{
+    background-color: burlywood;
+    grid-area: main;
+}
+footer{
+    background: black;
+    color: white;
+    grid-area: footer;
+}
+
+/* ipads 1024 and mobiles 576px*/
+
+@media (max-width:1024px) {
+
+    .wrapper{
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-areas: 
+"h1 h1"
+"header header"
+"banner banner"
+"off1 off2"
+"sm sm"
+"main main"
+"recent tags"
+"footer footer";
+
+}}
+    
+@media (max-width:576px){
+
+    .wrapper{
+       
+display: grid;
+
+grid-template-columns: 1fr;
+grid-template-areas: 
+"h1"
+"header"
+"banner"
+"off1"
+"off2"
+"sm"
+"recent"
+"main"
+"tags"
+"footer";
+}
+}
