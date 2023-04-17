@@ -91,39 +91,40 @@ top: 35%;
 right: 62%;
 }
 h2{
-    color: rgb(255, 251, 251);
+    color: rgb(253, 253, 253);
     font-size: 2rem;
     margin: 0;
 }
 .off1{
   
     grid-area:off1;
-    background-attachment: fixed;
-    background-color: rgba(240, 13, 13, 0.309);
+  background-attachment: fixed;
+    background-color: rgb(0 0 0 0);
     
 
     
 }
 .off1>h2{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 70px;
     margin-bottom: 70px;
+    color: rgba(0, 0, 0, 0.965);
 }
 .off1-2{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap ;
-    
     gap: 1rem;
+    
 
  
 }
 #pics{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
-    mix-blend-mode: color;
+   
     
    
 }
@@ -132,7 +133,13 @@ h2{
    
     font-size: 1.5rem;
     color:rgba(237, 36, 0, 0.612);
-    margin-bottom: 30px;
+    margin-top: 15px;    margin-bottom: 30px;
+}
+.sides{
+    text-align: center;
+    color: black;
+    margin-top: 30px;
+    margin-bottom:70px;
 }
 .off2{
     background-color: brown;
