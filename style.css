@@ -6,25 +6,31 @@
                 box-sizing: border-box;
                 font-family: cursive;
             }
+            /* online button======= */
             .online-btn{
                 width: 20vw;
                 padding: 20px;
                 background-color:  rgba(154, 18, 18, 0.911);
                 border: 1px solid white;
                 border-radius: 20px;
-          
+         
                 font-size: 1.5rem;
                 transition: all 0.5s;
             }
             .online-btn:hover{
-                color: white;
+                color: rgb(255, 255, 255);
                 background-color: rgba(247, 9, 9, 0);
+                border: 1px solid rgb(0, 0, 0);
+
                 cursor: pointer;
-                opacity: 0.5;
+                opacity: 1;
                 width: 50vw;
             transform: scale(1.1);
             }
-        
+
+
+
+        /*  app store button=====*/
             .app{
                 width: 10vw;
                 border: 1px solid rgb(0, 0, 0);
@@ -46,9 +52,12 @@
             transform: scale(1);
             border: 2px solid white;
        font-size: 1.5rem;
-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);
 cursor: pointer;
          }
+
+
+/* main wrapper container */
             .wrapper{
                 /* background-color: lightblue;
                 padding: 10px; */
@@ -66,6 +75,7 @@ grid-template-areas:
 "footer footer footer"
 
 ;
+
 }
 .wrapper  {
 display: grid;
@@ -277,7 +287,7 @@ transform: scale(1.1);
 .review{
     width: 200px;
     height: inherit;
-    background-color: rgba(178, 61, 31, 0.405);
+    background-color: rgba(231, 16, 9, 0.685);
     border-radius: 10%;
     padding: 20px;
     box-shadow: 5px 10px rgba(241, 20, 20, 0.312);
