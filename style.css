@@ -272,12 +272,25 @@ background-color: rgba(240, 248, 255, 0.684);
 box-shadow: none;
     
 }
-footer{
-    background: black;
-    color: white;
-    grid-area: footer;
-}
+.call-btn{
+    width: 15vw;
+    padding: 20px;
+    background-color:  rgba(154, 18, 18, 0.842);
+    border: 1px solid white;
+    border-radius: 20px;
 
+    font-size: 1.5rem;
+    transition: all 0.5s;
+}
+.call-btn:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgba(247, 9, 9, 0);
+    border: 1px solid black;
+    cursor: pointer;
+    opacity: 0.5;
+    width: 20vw;
+transform: scale(1.1);
+}
 
 /* Sign in page */
 
@@ -346,6 +359,25 @@ h2{
     
 transform: scale(1.1);
 }
+.call-btn{
+    width: 25vw;
+    padding: 15px;
+    background-color:  rgba(154, 18, 18, 0.842);
+    border: 1px solid white;
+    border-radius: 20px;
+
+    font-size: 1.5rem;
+    transition: all 0.5s;
+}
+.call-btn:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgba(247, 9, 9, 0);
+    border: 1px solid black;
+    cursor: pointer;
+    opacity: 0.5;
+    width: 40vw;
+transform: scale(1.1);
+}
 .app{
   display: none;
     
@@ -354,7 +386,7 @@ transform: scale(1.1);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    font-size: 1rem;
+    font-size: 1.4rem;
 
 
 
@@ -400,7 +432,7 @@ grid-template-areas:
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
 
 
 
@@ -437,8 +469,27 @@ transform: scale(1.1);
     background-color:  rgba(154, 18, 18, 0.911);
     border: 1px solid white;
     border-radius: 10px;
-
+color: black;
     font-size: 0.9rem;
     transition: all 0.5s;
+}
+.call-btn{
+    width: 25vw;
+    padding: px;
+    background-color:  rgba(154, 18, 18, 0.842);
+    border: 1px solid white;
+    border-radius: 20px;
+
+    font-size: 1.5rem;
+    transition: all 0.5s;
+}
+.call-btn:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgba(247, 9, 9, 0);
+    border: 1px solid black;
+    cursor: pointer;
+    opacity: 0.5;
+    width: 20vw;
+transform: scale(1.1);
 }
 }
