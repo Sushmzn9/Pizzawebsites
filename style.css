@@ -6,6 +6,9 @@
                 box-sizing: border-box;
                 font-family: cursive;
             }
+            html{
+                scroll-behavior: smooth;
+            }
             /* online button======= */
             .online-btn{
                 width: 20vw;
@@ -167,6 +170,7 @@ a:hover{
  background: linear-gradient(130deg,rgb(255,1,266), orange,blue);
 grid-area:banner;
 height: 100%;
+
 position: relative;
 }
 video{
@@ -188,7 +192,7 @@ h2{
     margin-left: 20px;
 }
 .off1{
-  
+    padding-top: 4rem;
     grid-area:off1;
   background-attachment: fixed;
     background-color: rgb(0 0 0 0);
@@ -275,6 +279,8 @@ transform: scale(1.1);
 .side-menu{
     height: inherit;
     grid-area: sm;
+    padding-top: 4rem;
+
 }
 .feedback{
     display: flex;
@@ -282,6 +288,7 @@ transform: scale(1.1);
     justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 2rem;
+   
   
 }
 .review{
@@ -319,8 +326,8 @@ box-shadow: none;
     background-color: rgba(247, 9, 9, 0);
     border: 1px solid black;
     cursor: pointer;
-    opacity: 0.5;
-    width: 20vw;
+    opacity: 1;
+    width: 30vw;
 transform: scale(1.1);
 }
 

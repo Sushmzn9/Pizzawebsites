@@ -1,0 +1,38 @@
+Sign in page 
+
+body{
+ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .signin{
+    display: flex;
+ justify-content: center;
+    align-items: center;
+    background-color: rgba(38, 21, 137, 0.688);
+    border: 3px solid black;
+    margin: 100px 7rem 2rem 7rem;
+    backdrop-filter: blur(5px);
+
+} */
+
+.createacc{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
+    border: 2px rgb(255, 0, 34) solid;
+    margin: 100px 7rem 2rem 7rem;
+    background: whitesmoke;
+   
+}
+input{
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+label{
+    display: flex;
+    margin-bottom: 0.5rem;
+}
